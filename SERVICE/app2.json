@@ -3,7 +3,7 @@
     "action": "deploy",
     "declaration": {
         "class": "ADC",
-        "schemaVersion": "3.1.0",
+        "schemaVersion": "3.4.0",
         "id": "SuperNetOps_Class_1_Lab2_3_Step3",
         "label": "SuperNetOps_Class_1_Lab2_3_Step3",
         "remark": "Super NetOps Class 1 Lab 2.3 Step 3",
