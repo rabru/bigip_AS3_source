@@ -37,6 +37,33 @@
                     ]
                 }
             }
+            "A2": {
+                "class": "Application",
+                "template": "http",
+                "serviceMain": {
+                    "class": "Service_HTTP",
+                    "virtualAddresses": [
+                        "172.31.4.21"
+                    ],
+                    "pool": "web_pool2"
+                },
+                "web_pool2": {
+                    "class": "Pool",
+                    "monitors": [
+                        "http"
+                    ],
+                    "members": [
+                        {
+                            "servicePort": 8080,
+                            "serverAddresses": [
+                                "172.31.10.111",
+                                "172.31.10.112",
+                                "172.31.10.113"
+                            ]
+                        }
+                    ]
+                }
+            }
         }
     }
 }
