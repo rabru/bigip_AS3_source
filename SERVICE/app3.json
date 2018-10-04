@@ -10,33 +10,6 @@
         "remark": "Simple HTTP application with RR pool",
         "Sample_01": {
             "class": "Tenant",
-            "A1": {
-                "class": "Application",
-                "template": "http",
-                "serviceMain": {
-                    "class": "Service_HTTP",
-                    "virtualAddresses": [
-                        "172.31.4.11"
-                    ],
-                    "pool": "web_pool"
-                },
-                "web_pool": {
-                    "class": "Pool",
-                    "monitors": [
-                        "http"
-                    ],
-                    "members": [
-                        {
-                            "servicePort": 8080,
-                            "serverAddresses": [
-                                "172.31.10.102",
-                                "172.31.10.103",
-                                "172.31.10.104"
-                            ]
-                        }
-                    ]
-                }
-            }
             "A2": {
                 "class": "Application",
                 "template": "http",
