@@ -47,7 +47,7 @@
                "Maintenance_iRule": {
                    "class": "iRule",
                    "iRule": {
-                     "url": "https://raw.githubusercontent.com/f5devcentral/f5-automation-labs/{{repository_branch}}/files/irules/maintenance-page.irule"
+                     "url": "https://raw.githubusercontent.com/f5devcentral/f5-automation-labs/develop/files/irules/maintenance-page.irule"
                    }
                },
                "HTTP_Profile": {
