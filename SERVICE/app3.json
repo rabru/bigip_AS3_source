@@ -21,7 +21,7 @@
                     "virtualAddresses": [
                         "172.31.4.11"
                     ],
-                    "pool": "/T1/A1/web_pool",
+                    "pool": "web_pool",
                     "virtualPort": 80,
                     "persistenceMethods": [
                         "cookie"
